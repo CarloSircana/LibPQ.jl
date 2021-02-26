@@ -148,7 +148,7 @@ _DEFAULT_TYPE_MAP[:float8] = Float64
 _DEFAULT_TYPE_MAP[:oid] = Oid
 
 ## numeric
-_DEFAULT_TYPE_MAP[:numeric] = Decimal
+_DEFAULT_TYPE_MAP[:numeric] = BigFloat
 
 # no default for monetary; needs lconv and lc_monetary from result/connection
 
